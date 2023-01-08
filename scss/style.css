@@ -1,0 +1,677 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  list-style: none;
+}
+
+* body {
+  min-height: 100vh;
+  width: 100%;
+}
+
+* body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+* body main .introduction {
+  background-image: url(/images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+* body main .introduction figure {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+
+* body main .introduction h1 {
+  font-size: 40px;
+  color: #4c545d;
+}
+
+* body main .introduction .clip1 {
+  color: #9fabb2;
+  width: 650px;
+  margin-top: 25px;
+}
+
+* body main .introduction .btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  padding-bottom: 150px;
+}
+
+* body main .introduction .btn-group button {
+  border-radius: 30px;
+  border: none;
+  padding: 13px 40px;
+  color: #fff;
+  margin-top: 50px;
+}
+
+* body main .introduction .btn-group button:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+
+* body main .introduction .btn-group .btn-ios {
+  background-color: #26baa4;
+}
+
+* body main .introduction .btn-group .btn-mac {
+  background-color: #6173ff;
+}
+
+* body main .introduction h2 {
+  font-size: 32px;
+  color: #4c545d;
+}
+
+* body main .introduction .clip2 {
+  width: 700px;
+  margin-top: 20px;
+  color: #9fabb2;
+  padding-bottom: 50px;
+}
+
+* body main .info-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+* body main .info-product h3 {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #4c545d;
+  padding-bottom: 10px;
+}
+
+* body main .info-product p {
+  width: 380px;
+  color: #9fabb2;
+}
+
+* body main .devices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+}
+
+* body main .devices .devices-info {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+* body main .devices .devices-info h4 {
+  font-size: 28px;
+  color: #4c545d;
+  padding-bottom: 20px;
+}
+
+* body main .devices .devices-info p {
+  color: #9fabb2;
+  line-height: 25px;
+  width: 680px;
+  padding-bottom: 100px;
+}
+
+* body main .tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+* body main .tools .title h5 {
+  font-size: 32px;
+  color: #4c545d;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+* body main .tools .title p {
+  color: #9fabb2;
+  font-weight: 400;
+  padding-bottom: 70px;
+}
+
+* body main .tools .tools-list {
+  width: 100%;
+}
+
+* body main .tools .tools-list .list-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 100px;
+}
+
+* body main .tools .tools-list .list-items .blacklist-li, * body main .tools .tools-list .list-items .text, * body main .tools .tools-list .list-items .preview {
+  width: 400px;
+}
+
+* body main .tools .tools-list .list-items .blacklist-li img, * body main .tools .tools-list .list-items .text img, * body main .tools .tools-list .list-items .preview img {
+  padding-bottom: 30px;
+}
+
+* body main .tools .tools-list .list-items .blacklist-li h5, * body main .tools .tools-list .list-items .text h5, * body main .tools .tools-list .list-items .preview h5 {
+  color: #4c545d;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+* body main .tools .tools-list .list-items .blacklist-li p, * body main .tools .tools-list .list-items .text p, * body main .tools .tools-list .list-items .preview p {
+  color: #9fabb2;
+}
+
+* body main .tools .companies-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+  padding: 120px;
+}
+
+* body main .clipboard {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 200px;
+}
+
+* body main .clipboard h6 {
+  color: #4c545d;
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+* body main .clipboard p {
+  color: #9fabb2;
+  width: 700px;
+  padding-bottom: 20px;
+}
+
+* body main .clipboard .btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+* body main .clipboard .btn-group button {
+  border-radius: 30px;
+  border: none;
+  padding: 13px 40px;
+  color: #fff;
+  margin-top: 50px;
+}
+
+* body main .clipboard .btn-group button:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+
+* body main .clipboard .btn-group .btn-ios {
+  background-color: #26baa4;
+}
+
+* body main .clipboard .btn-group .btn-mac {
+  background-color: #6173ff;
+}
+
+* body main footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ececec;
+  height: 20vh;
+}
+
+* body main footer figure img {
+  width: 50px;
+}
+
+* body main footer ul li a {
+  text-decoration: none;
+  color: #4c545d;
+  font-weight: 400;
+}
+
+* body main footer ul li a:hover {
+  color: #26baa4;
+}
+
+* body main footer .social-medias ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1240px) {
+  * body main .introduction .clip1 {
+    color: #9fabb2;
+    width: 650px;
+    margin-top: 25px;
+  }
+  * body main .introduction .btn-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+    padding-bottom: 150px;
+  }
+  * body main .introduction .btn-group button {
+    border-radius: 30px;
+    border: none;
+    padding: 13px 40px;
+    color: #fff;
+    margin-top: 50px;
+  }
+  * body main .introduction .btn-group button:hover {
+    cursor: pointer;
+    opacity: 50%;
+  }
+  * body main .introduction .btn-group .btn-ios {
+    background-color: #26baa4;
+  }
+  * body main .introduction .btn-group .btn-mac {
+    background-color: #6173ff;
+  }
+  * body main .introduction h2 {
+    font-size: 32px;
+    color: #4c545d;
+  }
+  * body main .introduction .clip2 {
+    width: 700px;
+    margin-top: 20px;
+    color: #9fabb2;
+    padding-bottom: 50px;
+  }
+  * body main .info-product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    gap: 100px;
+    width: 100%;
+    padding-bottom: 100px;
+  }
+  * body main .tools .tools-list {
+    width: 100%;
+  }
+  * body main .tools .tools-list .list-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  * body main .tools .tools-list .list-items .blacklist-li, * body main .tools .tools-list .list-items .text, * body main .tools .tools-list .list-items .preview {
+    width: 400px;
+  }
+  * body main .tools .companies-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    gap: 100px;
+  }
+}
+
+@media screen and (max-width: 906px) {
+  * body main .introduction h1 {
+    font-size: 40px;
+    width: 400px;
+    color: #4c545d;
+  }
+  * body main .introduction .clip1 {
+    color: #9fabb2;
+    width: 345px;
+    margin-top: 25px;
+    padding-bottom: 50px;
+  }
+  * body main .introduction .btn-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 50px;
+    gap: 20px;
+  }
+  * body main .introduction .btn-group button {
+    padding: 13px 65px;
+    margin: 0;
+  }
+  * body main .introduction h2 {
+    font-size: 32px;
+    color: #4c545d;
+  }
+  * body main .introduction .clip2 {
+    width: 350px;
+    margin-top: 20px;
+    color: #9fabb2;
+    padding-bottom: 50px;
+  }
+  * body main .info-product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 100px;
+  }
+  * body main .info-product figure {
+    width: 100%;
+  }
+  * body main .info-product figure img {
+    width: 85%;
+  }
+  * body main .info-product .text-info ul li p {
+    padding-bottom: 50px;
+  }
+  * body main .devices .devices-info h4 {
+    font-size: 24px;
+    color: #4c545d;
+    padding-bottom: 20px;
+  }
+  * body main .devices .devices-info p {
+    color: #9fabb2;
+    line-height: 25px;
+    width: 340px;
+    padding-bottom: 100px;
+  }
+  * body main .devices figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  * body main .devices figure img {
+    width: 90%;
+  }
+  * body main .tools .title {
+    width: 350px;
+  }
+  * body main .tools .companies-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 20px;
+    padding: 120px;
+  }
+  * body main .tools .companies-list li {
+    padding: 20px;
+  }
+  * body main .clipboard {
+    width: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 100px;
+  }
+  * body main .clipboard h6 {
+    color: #4c545d;
+    font-size: 28px;
+    padding-bottom: 20px;
+    width: 340px;
+  }
+  * body main .clipboard p {
+    color: #9fabb2;
+    padding-bottom: 20px;
+    width: 330px;
+  }
+  * body main .clipboard .btn-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  * body main .clipboard .btn-group button {
+    border-radius: 30px;
+    border: none;
+    padding: 13px 40px;
+    color: #fff;
+    margin: 0;
+    width: 100%;
+  }
+  * body main .clipboard .btn-group button:hover {
+    cursor: pointer;
+    opacity: 50%;
+  }
+  * body main footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 50px 100px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+    background-color: #ececec;
+    height: auto;
+  }
+  * body main footer figure img {
+    width: 50px;
+  }
+  * body main footer ul {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  * body main footer ul li a {
+    text-decoration: none;
+    color: #4c545d;
+    font-weight: 400;
+  }
+  * body main footer ul li a:hover {
+    color: #26baa4;
+  }
+  * body main footer .social-medias {
+    width: 170px;
+    margin-top: 30px;
+  }
+  * body main footer .social-medias ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  * body main .introduction {
+    background-image: url(./images/bg-header-mobile.png);
+  }
+  * body main .introduction h1 {
+    font-size: 32px;
+    width: 320px;
+  }
+  * body main .introduction .clip1 {
+    font-size: 0.9rem;
+    width: 310px;
+  }
+  * body main .introduction h2 {
+    font-size: 32px;
+    width: 350px;
+  }
+  * body main .introduction .clip2 {
+    width: 350px;
+  }
+  * body main .info-product .text-info ul p {
+    font-size: 1rem;
+    width: 340px;
+  }
+  * body main .devices .devices-info h4 {
+    font-size: 32px;
+    width: 320px;
+  }
+  * body main .devices .devices-info p {
+    width: 350px;
+  }
+  * body main .tools .tools-list .list-items .blacklist-li, * body main .tools .tools-list .list-items .text, * body main .tools .tools-list .list-items .preview {
+    width: 350px;
+  }
+  * body main .clipboard .btn-group button {
+    padding: 13px 65px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
