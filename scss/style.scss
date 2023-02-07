@@ -23,9 +23,9 @@
 
 
             .introduction {
-                background-image: url(./images/bg-header-desktop.png);
+                background-image: url(../images/logo.svg);
                 background-repeat: no-repeat;
-                background-size: 100%;
+                background-position: center top 80px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -37,8 +37,11 @@
                     width: 100%;
                     display: flex;
                     justify-content: center;
-                    margin-top: 100px;
-                    padding-bottom: 50px;
+                    
+                    img {
+                        width: 100%;
+                    }
+                    
                 }
 
                 h1 {
@@ -410,6 +413,7 @@
                         font-size: 40px;
                         width: 400px;
                         color: $dark-grayish-blue;
+                        margin-top: 100px;
                     }
     
                     .clip1 {
@@ -614,9 +618,9 @@
         body {
             main {
                 .introduction {
-                    background-image: url(./images/bg-header-mobile.png);
 
                     h1 {
+                        padding-top: 100px;
                         font-size: 32px;
                         width: 320px;
                     }
